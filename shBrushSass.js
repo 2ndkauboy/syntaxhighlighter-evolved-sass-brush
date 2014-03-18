@@ -65,7 +65,7 @@
 			{ regex: /\#[a-fA-F0-9]{3,6}/g,											css: 'value' },			// html colors
 			{ regex: /\b(-?\d+)(\.\d+)?(px|em|rem|pt|\:|\%|)\b/g,					css: 'value' },			// sizes
 			{ regex: /\$[\w-]+/g,													css: 'variable' },		// variables
-			{ regex: new RegExp(getKeywordsPrependedBy(statements, '!'), 'g'),					css: 'color3' },		// statements
+			{ regex: new RegExp(getKeywordsPrependedBy(statements, '!'), 'g'),		css: 'color3' },		// statements
 			{ regex: new RegExp(getKeywordsPrependedBy(preprocessor, '@'), 'g'),	css: 'preprocessor' },	// preprocessor
 			{ regex: new RegExp(getKeywordsCSS(keywords), 'gm'),					css: 'keyword' },		// keywords
 			{ regex: new RegExp(getValuesCSS(values), 'g'),							css: 'value' },			// values
