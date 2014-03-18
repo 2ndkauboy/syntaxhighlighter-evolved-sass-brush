@@ -1,9 +1,9 @@
-# Plugin Name #
-Contributors: Kau-Boy
-Donate link: http://kau-boys.com/wish-list
-Tags: code, sass, scss, highlight, syntax
-Tested up to: 3.9
-Stable tag: 1
+# SyntaxHighlighter-Evolved-SASS-Brush #
+Contributors: Kau-Boy  
+Donate link: http://kau-boys.com/wish-list  
+Tags: code, sass, scss, highlight, syntax  
+Tested up to: 3.9  
+Stable tag: 1  
 
 Adds support for the SASS language to the SyntaxHighlighter Evolved plugin.
 
