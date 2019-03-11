@@ -10,8 +10,9 @@ Author URI: http://kau-boys.de/
 // SyntaxHighlighter Evolved doesn't do anything until early in the "init" hook, so best to wait until after that
 add_action( 'init', 'syntaxhighlighter_sass_regscript' );
  
-// Tell SyntaxHighlighter Evolved about this new language/brush
+// Tell SyntaxHighlighter Evolved about this new language/brush and name it
 add_filter( 'syntaxhighlighter_brushes', 'syntaxhighlighter_sass_addlang' );
+add_filter( 'syntaxhighlighter_brush_names', 'syntaxhighlighter_sass_addname' );
  
 // Register the brush file with WordPress
 function syntaxhighlighter_sass_regscript() {
@@ -24,4 +25,11 @@ function syntaxhighlighter_sass_addlang( $brushes ) {
     $brushes['scss'] = 'sass';
  
     return $brushes;
+}
+
+// Filter SyntaxHighlighter Evolved's name array
+function syntaxhighlighter_sass_addname( $names ) {
+	$names['sass'] = 'SASS / SCSS';
+
+	return $names;
 }
