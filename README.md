@@ -2,8 +2,8 @@
 Contributors: Kau-Boy  
 Donate link: http://kau-boys.com/wish-list  
 Tags: code, sass, scss, highlight, syntax  
-Tested up to: 3.9  
-Stable tag: 1  
+Tested up to: 5.1
+Stable tag: 1.1.0
 
 Adds support for the SASS language to the SyntaxHighlighter Evolved plugin.
 
@@ -19,6 +19,9 @@ A list of all of my plugins can be found on the [WordPress Plugin page](http://k
 - This plugin is only an extension of the [SyntaxHighlighter Evolved](http://wordpress.org/plugins/syntaxhighlighter/) which has to be installed and activated
 
 ## Changelog ##
+
+### 1.1 ###
+Adding names for the Gutenberg block
 
 ### 1.0 ###
 First stable version
