@@ -10,7 +10,9 @@ jobs:
       with:
         args: branch master
     - name: WordPress Plugin Asset Update
-      uses: 10up/actions-wordpress/dotorg-plugin-asset-update@master
+      uses: 2ndkauboy/actions-wordpress/dotorg-plugin-asset-update@master
       env:
+        SLUG: syntaxhighlighter-evolved-sass-brush
+        README_NAME: README.md
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
