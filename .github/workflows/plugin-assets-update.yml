@@ -1,0 +1,16 @@
+on: push
+name: Plugin Asset Update
+jobs:
+  branch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: branch
+      uses: actions/bin/filter@master
+      with:
+        args: branch master
+    - name: WordPress Plugin Asset Update
+      uses: 10up/actions-wordpress/dotorg-plugin-asset-update@master
+      env:
+        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
