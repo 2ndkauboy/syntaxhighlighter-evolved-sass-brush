@@ -10,7 +10,7 @@
  * Plugin Name: SyntaxHighlighter Evolved: SASS Brush
  * Plugin URI: https://kau-boys.de
  * Description: Adds support for the SASS language to the SyntaxHighlighter Evolved plugin.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Bernhard Kau
  * Author URI: https://kau-boys.de
  * License: GPLv3
@@ -28,7 +28,7 @@ add_filter( 'syntaxhighlighter_brush_names', 'syntaxhighlighter_sass_addname' );
  *  Register the brush file with WordPress
  */
 function syntaxhighlighter_sass_regscript() {
-	wp_register_script( 'syntaxhighlighter-brush-sass', plugins_url( 'shBrushSass.js', __FILE__ ), array( 'syntaxhighlighter-core' ), '1.1.0' );
+	wp_register_script( 'syntaxhighlighter-brush-sass', plugins_url( 'shBrushSass.js', __FILE__ ), array( 'syntaxhighlighter-core' ), '1.2.0', true );
 }
 
 /**

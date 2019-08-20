@@ -20,6 +20,9 @@ A list of all of my plugins can be found on the [WordPress Plugin page](http://k
 
 ## Changelog ##
 
+### 1.2 ###
+Load the script in the footer of the page
+
 ### 1.1 ###
 Adding names for the Gutenberg block
 
