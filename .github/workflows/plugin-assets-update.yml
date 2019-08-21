@@ -1,18 +1,18 @@
-on: push
-name: Plugin Asset Update
+name: Plugin asset/readme update
+on:
+  push:
+    branches:
+    - master
 jobs:
-  branch:
+  master:
+    name: Push to master
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: branch
-      uses: actions/bin/filter@master
-      with:
-        args: branch master
-    - name: WordPress Plugin Asset Update
+    - name: WordPress.org plugin asset/readme update
       uses: 2ndkauboy/actions-wordpress/dotorg-plugin-asset-update@master
       env:
-        SLUG: syntaxhighlighter-evolved-sass-brush
-        README_NAME: README.md
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+        SLUG: syntaxhighlighter-evolved-sass-brush
+        README_NAME: README.md
