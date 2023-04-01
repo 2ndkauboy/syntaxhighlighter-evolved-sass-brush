@@ -1,6 +1,6 @@
 # SyntaxHighlighter Evolved: SASS Brush #
 Contributors: Kau-Boy  
-Donate link: http://kau-boys.com/wish-list  
+Donate link: https://github.com/sponsors/2ndkauboy  
 Tags: code, sass, scss, highlight, syntax  
 Tested up to: 6.2  
 Stable tag: 1.2.0  
