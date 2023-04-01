@@ -2,7 +2,7 @@
 Contributors: Kau-Boy  
 Donate link: http://kau-boys.com/wish-list  
 Tags: code, sass, scss, highlight, syntax  
-Tested up to: 5.3  
+Tested up to: 6.2  
 Stable tag: 1.2.0  
 
 Adds support for the SASS language to the SyntaxHighlighter Evolved plugin.
