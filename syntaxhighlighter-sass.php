@@ -10,7 +10,7 @@
  * Plugin Name: SyntaxHighlighter Evolved: SASS Brush
  * Plugin URI: https://kau-boys.de
  * Description: Adds support for the SASS language to the SyntaxHighlighter Evolved plugin.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Author: Bernhard Kau
  * Author URI: https://kau-boys.de
  * License: GPLv3

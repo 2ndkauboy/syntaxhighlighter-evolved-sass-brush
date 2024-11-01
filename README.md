@@ -3,7 +3,7 @@ Contributors: Kau-Boy
 Donate link: https://github.com/sponsors/2ndkauboy  
 Tags: code, sass, scss, highlight, syntax  
 Tested up to: 6.7  
-Stable tag: 1.2.0  
+Stable tag: 1.3.0  
 License: GPLv3  
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -21,6 +21,9 @@ A list of all of my plugins can be found on the [WordPress Plugin page](http://k
 - This plugin is only an extension of the [SyntaxHighlighter Evolved](http://wordpress.org/plugins/syntaxhighlighter/) which has to be installed and activated
 
 ## Changelog ##
+
+### 1.3 ###
+Update keywords for the brush
 
 ### 1.2 ###
 Load the script in the footer of the page
