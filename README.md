@@ -2,7 +2,7 @@
 Contributors: Kau-Boy  
 Donate link: https://github.com/sponsors/2ndkauboy  
 Tags: code, sass, scss, highlight, syntax  
-Tested up to: 6.7  
+Tested up to: 6.8  
 Stable tag: 1.3.0  
 License: GPLv3  
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
