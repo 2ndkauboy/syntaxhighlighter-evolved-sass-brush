@@ -20,6 +20,12 @@ A list of all of my plugins can be found on the [WordPress Plugin page](http://k
 - Installation of the plugin itself work as always: https://codex.wordpress.org/Managing_Plugins#Installing_Plugins
 - This plugin is only an extension of the [SyntaxHighlighter Evolved](http://wordpress.org/plugins/syntaxhighlighter/) which has to be installed and activated
 
+## Frequently Asked Questions
+
+### Where do I report security bugs found in this plugin?
+
+Please report security bugs found in the source code of the "SyntaxHighlighter Evolved: SASS Brush" plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/5ebbfb4b-cfff-4e73-aa6d-58fccbbf4428). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 ## Changelog ##
 
 ### 1.3 ###
